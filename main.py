@@ -2,7 +2,8 @@ from fastapi import FastAPI, Request
 from fastapi.staticfiles import StaticFiles
 from starlette.templating import Jinja2Templates
 
-from . import models
+# from . import models
+import models
 from .database import engine, get_db
 from .routers import tenants, visitors
 
