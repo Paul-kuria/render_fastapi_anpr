@@ -6,8 +6,8 @@ from pydantic import ValidationError
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 
-from .. import models, schemas
-from ..database import get_db
+import models, schemas
+from database import get_db
 
 router = APIRouter(prefix="/members", tags=["Member"])
 
