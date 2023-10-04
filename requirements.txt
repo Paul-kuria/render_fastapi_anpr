@@ -1,1 +1,7 @@
 fastapi[all]
+Jinja2==3.1.2
+pydantic==2.4.2
+pydantic-settings==2.0.3
+pydantic_core==2.10.1
+starlette==0.26.1
+SQLAlchemy==2.0.19
